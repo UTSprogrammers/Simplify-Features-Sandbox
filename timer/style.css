@@ -1,0 +1,88 @@
+:root {
+  font-size: 10px; /* 1rem = 10px */
+
+  --color-primary: #f7f3e3;
+
+  --color-font: #2b2118;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--color-primary);
+  font-size: 16px;
+  font-family: "Open sans", sans-serif;
+}
+
+p,
+i,
+h1 {
+  color: var(--color-font);
+}
+
+i {
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+/* ==== CONTENT ==== */
+
+section {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  width: min(425px, 100%);
+  margin-inline: auto;
+  padding-inline: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.time {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+}
+
+.time p {
+  font-size: 45px;
+}
+
+.time p:nth-of-type(2) {
+  position: relative;
+  top: -5px;
+  margin-inline: 10px;
+}
+
+.controls {
+  margin-top: 30px;
+}
+
+#start {
+  margin-right: 20px;
+}
+
+.controls button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.controls #reset {
+  display: none;
+}
