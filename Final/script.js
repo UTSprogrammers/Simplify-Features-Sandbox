@@ -27,7 +27,7 @@ breakResetElement.style.display = "none";
 function updateTimer(time) {
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
-  const formattedTime = `${minutes.toString().padStart(2, "0")}:${seconds
+  const formattedTime = `${minutes.toString().padStart(2, "0")} : ${seconds
     .toString()
     .padStart(2, "0")}`;
   timerElement.innerHTML = formattedTime;
@@ -68,7 +68,7 @@ function resetTimer() {
 function updateBreakTimer(time) {
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
-  const formattedTime = `${minutes.toString().padStart(2, "0")}:${seconds
+  const formattedTime = `${minutes.toString().padStart(2, "0")} : ${seconds
     .toString()
     .padStart(2, "0")}`;
   timerElement.innerHTML = formattedTime;
