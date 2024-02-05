@@ -1,5 +1,8 @@
 Pomodoro Timer
 == 
+<a href="https://utsprogrammers.github.io/timer-test/Final/index.html">Click ther to run Timer</a>
+
+
 This is the testing for the timer feature
 
 TO run this timer, clone the repo. Then open the Final folder. Run the index.html.
