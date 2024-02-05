@@ -5,7 +5,7 @@
 > This has the Quote Api inside of the index.html. It is embedded inside of script section.
 > As we do not need to store this data it all frontend (no backend required).
 
-<a href="https://utsprogrammers.github.io/QuoteOfTheDay/Draft1/index.html">Click here to Open the Quote
+<a href="https://utsprogrammers.github.io/Simplify-Features-Sandbox/QuoteOfTheDay/Draft1/index.html">Click here to Open the Quote
 <br>
 ![alt text](images/QuoteImage.png)
 
@@ -13,7 +13,7 @@
 
 ## Pomodoro Timer
 
-<a href="https://utsprogrammers.github.io/Timer Feature/Final/index.html">Click here to run Timer
+<a href="https://utsprogrammers.github.io/Simplify-Features-Sandbox/Timer Feature/Final/index.html">Click here to run Timer
 <br>
 <br>
 ![image](https://github.com/UTSprogrammers/timer-test/assets/144529214/2b94ee58-163f-4d72-9b68-c9b542e4e9ba)
