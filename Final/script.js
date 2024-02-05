@@ -19,6 +19,7 @@ let breakInterval;
 let breakTime = 300;
 
 resetElement.style.display = "none";
+stopElement.style.display = "none";
 breakStartElement.style.display = "none";
 breakStopElement.style.display = "none";
 breakResetElement.style.display = "none";
@@ -46,11 +47,13 @@ function startTimer() {
   startElement.style.display = "none";
   resetElement.style.display = "inline-block";
   breakElement.style.display = "none";
+  stopElement.style.display = "inline-block";
 }
 
 function stopTimer() {
   clearInterval(interval);
   startElement.style.display = "inline-block";
+  stopElement.style.display = "none";
 }
 
 function resetTimer() {

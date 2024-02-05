@@ -5,21 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6f3103b13c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section>
       <div class="container">
         <h1 class="title">Pomodoro Timer</h1>
         <div class="section-container">
-          <button id="work" class="btn">Work</button>
+          <button id="work" class="btn">Focus</button>
           <button id="break" class="btn">BreaK</button>
         </div>
 
         <p class="timer" id="timer">25:00</p>
         <div class="button-wrapper">
-          <button class="button" id="start">Start</button>
-          <button class="button" id="stop">Stop</button>
-          <button class="button" id="reset">Reset</button>
+          <button class="button" id="start">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button class="button" id="stop">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+          <button class="button" id="reset">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+          </button>
         </div>
         <div class="button-wrapper">
           <button class="button" id="breakStart">BStart</button>
