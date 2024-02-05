@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #f3f0e7;
+}
+
+.quote-box {
+  background: #a19c88;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 32px;
+  font-weight: 900;
+  color: #f3f0e7;
+  font-size: 28px;
+}
+
+#author {
+  font-size: 20px;
+}
+
+.quote-box h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  position: relative;
+  color: #f3f0e7;
+  text-align: left;
+}
