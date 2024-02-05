@@ -7,6 +7,11 @@ Pomodoro Timer
 
 </a>
 
+The New design with Simplify colors
+
+![image](https://github.com/UTSprogrammers/timer-test/assets/144529214/2b94ee58-163f-4d72-9b68-c9b542e4e9ba)
+
+
 
 This is the testing for the timer feature
 
