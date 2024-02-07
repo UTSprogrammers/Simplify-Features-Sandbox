@@ -22,8 +22,13 @@
 ![image](https://github.com/UTSprogrammers/timer-test/assets/144529214/dbef3795-a479-42df-b61f-41ff9eb71ef4)
 
 </a>
+## Weather 
+
+To run Weather, clone the repo. Run the index.html. Remember to enables location access from the website. 
+
 
 The New design with Simplify colors
+
 
 This is the testing for the timer feature
 
