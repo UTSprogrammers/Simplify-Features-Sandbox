@@ -1,5 +1,10 @@
 # This is a Sandbox for features to implement on the Simplify Project
 
+## Weather API
+> THis is the weather implementation
+<a href="https://utsprogrammers.github.io/Simplify-Features-Sandbox/Weather/index.html"> Click here to access</a>
+
+
 ## Quote Of The Day
 
 > This has the Quote Api inside of the index.html. It is embedded inside of script section.
