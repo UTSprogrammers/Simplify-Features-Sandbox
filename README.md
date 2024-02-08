@@ -3,6 +3,7 @@
 ## Weather API
 > THis is the weather implementation
 <a href="https://utsprogrammers.github.io/Simplify-Features-Sandbox/Weather/index.html"> Click here to access</a>
+<a href="https://utsprogrammers.github.io/Simplify-Features-Sandbox/Weather(withoutButton)/index.html">Click here for weather variant without button</a>
 
 
 ## Quote Of The Day
